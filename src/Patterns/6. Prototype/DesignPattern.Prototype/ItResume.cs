@@ -4,6 +4,7 @@ using System.Text;
 
 namespace DesignPattern.Prototype
 {
+    //第三步，将基础信息和拓展部分进行一个拼接，生成最终面世的一个产品，同时，每份简历都应该有创造自己的能力，直接写基类的抽象方法里面
     public class ItResume : ResumeBase
     {
         /// <summary>

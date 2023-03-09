@@ -8,7 +8,7 @@ namespace DesignPattern.Builder5
         {
             IPhoneBuilder phoneBuilder = new PhoneBuilder();
             Phone phone = phoneBuilder
-                .BuildCpu(cpu => { cpu.Type = "8核16线程"; })
+                .BuildCpu(cpu => { cpu.Type = "8核16线程"; })//创建一个cpu类
                 .BuildMem(mem => { mem.Type = "32G"; })
                 .BuildScreen(screen => { screen.Type = "10寸"; })
                 .Build();

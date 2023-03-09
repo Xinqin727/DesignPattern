@@ -7,6 +7,7 @@ namespace DesignPattern.Prototype
     /// <summary>
     /// 工作经历
     /// </summary>
+        //2.在基础的简历模板上，每一份简历是不一样的，把特别的地方单拎出来
     public class WorkExperence
     {
         public string Company { get; set; }

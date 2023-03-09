@@ -14,6 +14,7 @@ namespace DesignPattern.Builder5
         public IPhoneBuilder BuildCpu(Action<Cpu> buildCpuDelegate)
         {
             _cpu = new Cpu();
+            //invoke,执行这个委托
             buildCpuDelegate?.Invoke(_cpu);
             return this;
         }

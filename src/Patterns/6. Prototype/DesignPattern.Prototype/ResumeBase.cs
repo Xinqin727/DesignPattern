@@ -4,6 +4,9 @@ using System.Text;
 
 namespace DesignPattern.Prototype
 {
+
+
+    //1.第一步，先创建基本的简历
     public abstract class ResumeBase
     {
         /// <summary>
